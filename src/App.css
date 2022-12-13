@@ -1,10 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&family=Source+Sans+Pro:wght@400;600;700&display=swap');
-
 *{
-  margin: 0;
-  padding: 0;
-    /* width: 100vw;
-    height: 100vh; */
+    margin: 0;
+    padding: 0;
 }
 
+.logo{
+    width:9rem;
+    height: 1.25rem;
+    margin-top: 30px;
+}
+.topbar{
+    width: 25rem;
+    height: fit-content;
+    margin-top: 23px;
+    
+}
+@media  (min-width: 600px) and (max-width:900px){
 
+    .logo{
+        width:6rem ;
+    }
+    .topbar{
+        margin-top: 26px;
+        width:20rem;
+    }
+
+    /* .topbar-left-user{
+        font-size: 1.5rem;
+    } */
+    
+}
+
+@media (min-width:300px) and (max-width:600px){
+
+    .logo{
+        margin-top:10px ;
+        width:3rem ;
+    }
+    .topbar{
+        margin-top: 12px;
+    }
+
+    /* .topbar-left-user{
+        font-size: 1rem;
+    } */
+    
+}
+
+@media (max-width:300px){
+
+    .logo{
+        margin-top: 5px;
+        width:2rem ;
+    }
+
+    .topbar{
+        margin-top: 8px;
+        width:20rem;
+    }
+    /* .topbar-left-user{
+        font-size: 0.8rem;
+    } */
+}
+    

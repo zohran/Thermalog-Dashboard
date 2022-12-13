@@ -2,15 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { ThemeProvider} from '@mui/material';
-
-import theme from './theme';
+import { Button, ThemeProvider} from '@mui/material';
+import theme from './theme.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ThemeProvider theme={theme}>
+  
       <React.StrictMode>
-      <App />
+      <ThemeProvider theme={theme}>
+        <App />
+      </ThemeProvider>
     </React.StrictMode>
-  </ThemeProvider>
+  
 );
