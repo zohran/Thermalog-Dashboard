@@ -9,7 +9,7 @@ import { Typography } from '@mui/material';
 
 function App() {
   return (
-    // //<AreaChart/>
+    // <AreaChart/>
    <Box sx={{ flexGrow:1, }}>
       <Grid container gap={2}>
         <Grid item lg={2}  xs={2} sx={{ height:"100vh"}}>
