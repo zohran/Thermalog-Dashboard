@@ -15,14 +15,10 @@
     
 }
 
-.dashtop{
-    /* background-color: red; */
-}
-.dashtop-left{
+
+.dashtop-left, .dashtop-right{
     box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
-
-
 }
 
 @media  (min-width: 600px) and (max-width:900px){
@@ -41,12 +37,6 @@
     align-self: flex-start;
    } 
 
-   /* .dashtop-left-card-box{
-    flex:1;
-   } */
-   /* .dashtop-left-card-desc{
-    display: none;
-   } */
     
 }
 

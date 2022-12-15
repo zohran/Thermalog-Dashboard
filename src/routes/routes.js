@@ -15,7 +15,7 @@ export default routes=[
     },
     {
         id:3,
-        screen:"ALarm Logs",
+        screen:"Alarm Logs",
         icon:"/assets/alarm.svg",
         route:"",
     },
@@ -48,5 +48,6 @@ export default routes=[
         screen:"Reconcile",
         icon:"/assets/reconcile.svg",
         route:"",
-    },    
+    },
+        
 ]
