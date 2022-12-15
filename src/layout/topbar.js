@@ -17,8 +17,8 @@ const User = styled(Typography)(theme=>({
 
 const UserDesc = styled(Typography)(theme=>({
   fontSize:"14px", 
-  fontWeight:"400", 
-  lineHeight:"10px",
+  fontWeight:"300", 
+  lineHeight:"5px",
   color:"gray"
 }))
 
@@ -35,13 +35,13 @@ const TopbarRight= styled(Button)(theme=>({
 function topbar() {
 
   return (
-    <Grid container  className="topbar" display="flex" justifyContent="space-between" sx={{width:"80vw"}}> 
+    <Grid container className="topbar" width="80vw" display="flex" justifyContent="space-between"> 
       <Grid item>
           <Typography className="topbar-left-user" variant='h1'>
             Welcome, Dev
           </Typography>
           <Typography className="topbar-left-user-desc" variant='h3' color="primary.main">
-            This is the Cake KeyboardArrowDownIcon
+            Here's what's happening in your Cake account
           </Typography>
       </Grid>
       <Grid item display="flex" alignItems="center">

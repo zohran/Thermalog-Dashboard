@@ -1,3 +1,4 @@
+
 import {createTheme } from '@mui/material';
 
 const theme=createTheme({
@@ -28,6 +29,7 @@ const theme=createTheme({
           },
           '@media (min-width:300px) and (max-width:600px)': {
             fontSize: '1rem',
+           
           },
           '@media (max-width:300px) ': {
             fontSize: '0.625rem',
@@ -57,6 +59,75 @@ const theme=createTheme({
           },
           '@media (max-width:300px) ': {
             fontSize: '0.4rem',
+          },
+        },
+        h6:{
+          fontSize: '1.125rem',
+          fontWeight: '300',
+
+          '@media (min-width:600px) and (max-width:900px)': {
+            fontSize: '1rem',
+          },
+          '@media (min-width:300px) and (max-width:600px)': {
+            fontSize: '0.7rem',
+          },
+          '@media (max-width:300px) ': {
+            fontSize: '0.3rem',
+          },
+        },
+        side:{
+          fontSize: '0.875rem',
+          fontWeight: '300',
+          lineHeight: '1.18rem',
+          fontFamily:"Manrope, sans-serif",
+          '@media (min-width:600px) and (max-width:900px)': {
+            fontSize: '1rem',
+          },
+          '@media (min-width:300px) and (max-width:600px)': {
+            fontSize: '0.7rem',
+          },
+          '@media (max-width:300px) ': {
+            fontSize: '0.3rem',
+          },
+        },
+        devices:{
+          fontSize: '1rem',
+          fontWeight: '500',
+          lineHeight: '1.18rem',
+          fontFamily:"Manrope, sans-serif",
+          '@media (min-width:600px) and (max-width:900px)': {
+            fontSize: '1rem',
+          },
+        },
+        card_title:{
+            fontSize: '15px',
+            fontFamily:"Manrope, sans-serif",
+            fontWeight: '700',
+            
+            lineHeight:'20px',
+            '@media (min-width:600px) and (max-width:900px)': {
+              fontSize: '12px',  
+              alignSelf:"center" 
+            },
+        },
+        card_desc:{
+          fontSize: '10px',
+          fontFamily:"Manrope, sans-serif",
+          fontWeight: '400',
+          width:"100%",
+          '@media (min-width:600px) and (max-width:900px)': {
+            fontSize: '7px',  
+            alignSelf:"self-start", 
+          },
+        },
+        temp:{
+          fontSize: '22px',
+          fontFamily:"Manrope, sans-serif",
+          fontWeight: '600',
+          lineHeight:'36px',
+          color:"#FB3640",
+          '@media (min-width:600px) and (max-width:900px)': {
+            fontSize: '18px',  
           },
         }
       },

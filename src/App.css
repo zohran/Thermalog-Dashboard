@@ -6,59 +6,62 @@
 .logo{
     width:9rem;
     height: 1.25rem;
-    margin-top: 30px;
+    margin-top: 25px;
+    margin-bottom: 35px;
 }
 .topbar{
-    width: 25rem;
     height: fit-content;
-    margin-top: 23px;
+    margin-top: 20px;
     
 }
+
+.dashtop{
+    /* background-color: red; */
+}
+.dashtop-left{
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+
+}
+
 @media  (min-width: 600px) and (max-width:900px){
 
     .logo{
         width:6rem ;
     }
+
     .topbar{
         margin-top: 26px;
-        width:20rem;
+        width:100%;
     }
 
-    /* .topbar-left-user{
-        font-size: 1.5rem;
-    } */
+   .a{
+    width: 100%;
+    align-self: flex-start;
+   } 
+
+   /* .dashtop-left-card-box{
+    flex:1;
+   } */
+   /* .dashtop-left-card-desc{
+    display: none;
+   } */
     
 }
 
-@media (min-width:300px) and (max-width:600px){
-
-    .logo{
-        margin-top:10px ;
-        width:3rem ;
-    }
-    .topbar{
-        margin-top: 12px;
-    }
-
-    /* .topbar-left-user{
-        font-size: 1rem;
-    } */
-    
+.css-1qya5ar-MuiGrid-root{
+    -webkit-flex-wrap: none;
+    flex-wrap: none;
 }
 
-@media (max-width:300px){
-
-    .logo{
-        margin-top: 5px;
-        width:2rem ;
-    }
-
-    .topbar{
-        margin-top: 8px;
-        width:20rem;
-    }
-    /* .topbar-left-user{
-        font-size: 0.8rem;
-    } */
+.css-1aqyr6c-MuiGrid-root {
+    width:"80vw";
 }
-    
+
+
+.css-46bh2p-MuiCardContent-root:last-child{
+    padding-bottom: 15px;
+}
+
+
