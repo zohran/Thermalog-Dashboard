@@ -9,36 +9,42 @@
     margin-top: 25px;
     margin-bottom: 35px;
 }
+
+
 .topbar{
     height: fit-content;
-    margin-top: 20px;
+    margin-top: 1.1rem;;
     
 }
 
 
 .dashtop-left, .dashtop-right{
     box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
+    border-radius: 16px;
+    height: 43vh;
 }
 
 @media  (min-width: 600px) and (max-width:900px){
 
     .logo{
         width:6rem ;
-    }
-
-    .topbar{
-        margin-top: 26px;
-        width:100%;
+        
     }
 
    .a{
     width: 100%;
     align-self: flex-start;
    } 
-
-    
+   .dashtop-left{
+    flex:3
+   }
+   .dashtop-right{
+    display: none;
+   }
+     
 }
+
+
 
 .css-1qya5ar-MuiGrid-root{
     -webkit-flex-wrap: none;

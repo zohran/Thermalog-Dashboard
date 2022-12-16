@@ -13,7 +13,7 @@ const ComponentsList= styled(Typography)(theme=>({
   width:"100%",
   overflow:"hidden",
   
-  gap:2,
+  gap:5,
 
   '@media (min-width:600px) and (max-width:900px)':{
     padding:"10px 15px"
@@ -29,7 +29,8 @@ const ComponentsList= styled(Typography)(theme=>({
 const Component= styled(Box)(theme=>({
   display:"flex",
   padding:"5px 24px",
-  width:"100%" ,
+  width:"90%" ,
+  height:"30px",
   overflow:"hidden" ,
   alignItems:"center",
   color:"#FFFFFF",
@@ -42,11 +43,11 @@ const Component= styled(Box)(theme=>({
 }))
 export default function sidebar() {
   return (
-    <Grid className="sidebar" container display="flex" flexDirection="column" alignItems="center"  sx={{bgcolor:"primary.main", height:"100vh", width:"inherit"}}>
+    <Grid className="sidebar" container display="flex" flexDirection="column" alignItems="center"  gap={3} sx={{bgcolor:"primary.main", height:"100vh", width:"fit-content"}}>
       <Grid  item  >
         <img src="/assets/logo.svg" className="logo" alt="Logo"   />
       </Grid>
-      <Grid item display="flex" width="100%" >
+      <Grid item display="flex" width="100%">
         <ComponentsList  >
         {
           ScreenRoutes.map(sc=><Component >

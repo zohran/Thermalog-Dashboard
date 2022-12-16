@@ -33,9 +33,8 @@ const TopbarRight= styled(Button)(theme=>({
 
 
 function topbar() {
-
   return (
-    <Grid container className="topbar" width="80vw" display="flex" justifyContent="space-between"> 
+    <Grid container className="topbar" display="flex" flexDirection="row" justifyContent="space-between"> 
       <Grid item>
           <Typography className="topbar-left-user" variant='h1'>
             Welcome, Dev
@@ -45,13 +44,13 @@ function topbar() {
           </Typography>
       </Grid>
       <Grid item display="flex" alignItems="center">
-        <Stack direction="row" className="topbar-right-icons" sx={{display:{xs:"none",sm:"block"}}}>
-        <IconButton>
-          <SearchIcon/>
-        </IconButton>
-        <IconButton>
-          <NotificationsIcon/>
-        </IconButton>
+        <Stack direction="row" className="topbar-right-icons" >
+          <IconButton>
+            <SearchIcon/>
+          </IconButton>
+          <IconButton>
+            <NotificationsIcon/>
+          </IconButton>
         </Stack>
         <TopbarRight disableRipple sx={{p:"3px 10px"}} className="topbar-right-dropdown" onClick={()=>console.log("clicked")} startIcon={<Avatar sx={{ bgcolor: "orange", width:"24px",height:"24px" }} />} endIcon={<KeyboardArrowDownIcon/>}>
                  Soccer10

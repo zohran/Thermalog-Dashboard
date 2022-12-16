@@ -4,7 +4,7 @@ import React from 'react'
 
 function feed() {
   return (
-    <Grid sx={{mt:"20px"}} >
+    <Grid container width="85vw" mt="4rem" height="fit-content"  >
       <Dashboard />
     </Grid>
   )

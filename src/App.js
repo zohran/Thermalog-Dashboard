@@ -10,17 +10,17 @@ import { Typography } from '@mui/material';
 function App() {
   return (
     // <AreaChart/>
-   <Box sx={{ flexGrow:1, }}>
-      <Grid container gap={2}>
-        <Grid item lg={2}  xs={2} sx={{ height:"100vh"}}>
+  //  <Box sx={{ flexGrow:1, }}>
+      <Grid display="flex" flexDirection="row" gap={2}>
+        <Grid item  sx={{ height:"100vh"}}>
           <Sidebar/>
         </Grid>
-        <Grid item display="flex" sx={{flexFlow:"column"}} height="100%" >
+        <Grid item display="flex" flexDirection="column" alignItems="center"   >
           <Topbar />
           <Feed />
         </Grid>
       </Grid>
-   </Box>
+  //  </Box>
   );
 }
 
