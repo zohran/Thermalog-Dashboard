@@ -36,10 +36,7 @@
     align-self: flex-start;
    } 
    .dashtop-left{
-    flex:3
-   }
-   .dashtop-right{
-    display: none;
+    background-color: red;
    }
      
 }

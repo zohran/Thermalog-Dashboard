@@ -10,7 +10,7 @@ import { Typography } from '@mui/material';
 function App() {
   return (
     // <AreaChart/>
-  //  <Box sx={{ flexGrow:1, }}>
+   <Box sx={{ flexGrow:1, }}>
       <Grid display="flex" flexDirection="row" gap={2}>
         <Grid item  sx={{ height:"100vh"}}>
           <Sidebar/>
@@ -20,7 +20,7 @@ function App() {
           <Feed />
         </Grid>
       </Grid>
-  //  </Box>
+   </Box>
   );
 }
 
