@@ -7,7 +7,7 @@ function myCard() {
       <Typography className="dashtop-left-card-battery"   display="flex" sx={{fontSize:"0.6rem",justifyContent:"flex-end", color:"#00B071", mt:"3px", mr:"5px", mb:"-16px"}}>56%</Typography>
       <CardContent className="dashtop-left-card-content"  display=" flex" >
         <Stack className="dashtop-left-card-content-container" display="flex"  gap={1} alignSelf="center" flexDirection="row" alignItems="center"  >
-              <Stack  className="dashtop-left-card-box" display="flex" flex={1.5} justifyContent="center" alignItems="center"  height="6rem"   sx={{backgroundColor:   "rgba(251, 54, 64, 0.1)", borderRadius:"5px" }}>
+              <Stack  className="dashtop-left-card-box" display="flex" flex={1.2} justifyContent="center" alignItems="center"  height="5rem"   sx={{backgroundColor:   "rgba(251, 54, 64, 0.1)", borderRadius:"5px" }}>
                   <Typography variant="temp" >2.5 C</Typography>
               </Stack>
               <Stack className="dashtop-left-card-desc"  display="flex" flex={2} height="5rem" justifyContent="space-between"   >

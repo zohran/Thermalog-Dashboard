@@ -4,7 +4,7 @@ import React from 'react'
 
 function feed() {
   return (
-    <Grid container width="85vw" mt="4rem" height="fit-content"  >
+    <Grid container width="85vw" mt="2rem" height="fit-content"  >
       <Dashboard />
     </Grid>
   )

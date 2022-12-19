@@ -21,7 +21,7 @@ const areaChart=()=> {
 
   const getBGColor=()=>{
     const ctx=document.getElementById("myChart").getContext("2d");
-    let gradient=ctx.createLinearGradient(0,50,0,180);
+    let gradient=ctx.createLinearGradient(0,100,0,250);
     gradient.addColorStop(0,"red");
     gradient.addColorStop(0.5,"pink");
     gradient.addColorStop(1,"white");
@@ -73,7 +73,7 @@ const areaChart=()=> {
   };
 
 
-  return  <Line  id="myChart" data={data} options={options}/>
+  return  <Line  id="myChart" data={data}  options={options}/>
   
   // <div  style={{display:"flex", margin:"auto", justifyContent:"center", width:"100%", height:"100%", alignItems:"center"}}>
   //     <div style={{margin:"auto", backgroundColor:"Black"}}>

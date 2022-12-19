@@ -18,7 +18,7 @@
 }
 
 
-.dashtop-left, .dashtop-right{
+.dashtop-left, .dashtop-right, .dashbottom-left{
     box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.15);
     border-radius: 16px;
     height: 43vh;
@@ -35,10 +35,18 @@
     width: 100%;
     align-self: flex-start;
    } 
+
    .dashtop-left{
-    background-color: red;
+    width:50%;
    }
-     
+   
+   .dashtop-right{
+    
+    width:50%;
+   }
+   .lefttable, righttable{
+    width:30%,
+   }
 }
 
 
