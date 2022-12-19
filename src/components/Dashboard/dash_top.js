@@ -18,6 +18,8 @@ function DashTop() {
           <Grid item className="dashtop-right" sm={8} xs={6} display="flex"  flex={3} gap={1}    flexDirection="column"  alignItems="center" p="12px 15px 35px" >
               <Typography  className="dashtop-left-devices"  variant="devices">Probe</Typography>
               <Box display="flex" width="100%" height="100%">
+
+              
                 <AreaChart/>  
               </Box>
               <Typography className="viewAll" fontSize="12px" color="secondary.main" fullWidth alignSelf="center">view all</Typography>
